@@ -1,5 +1,3 @@
-
-
 {
   "homepage": "https://Ricodey77.github.io/testReact",
   "name": "test",
@@ -8,13 +6,20 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.2.1",
+    "@mui/material": "^6.2.1",
+    "@mui/x-date-pickers": "^7.23.3",
+    "bootstrap": "^5.3.3",
+    "dayjs": "^1.11.13",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^18.3.1"
