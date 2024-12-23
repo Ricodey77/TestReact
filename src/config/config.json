@@ -1,0 +1,27 @@
+{
+  "Logo": {
+    "visibility": true,
+    "position": "left"
+  },
+
+  "Buttons": {
+    "visibility": true,
+    "position": "right"
+  },
+
+  "LeftC": {
+    "visibility": true,
+    "position": "left"
+  },
+  "RightC": {
+    "visibility": true,
+    "position": "left"
+  },
+
+  "MidC": {
+    "visibility": true
+  },
+  "Footer": {
+    "visibility": true
+  }
+}
